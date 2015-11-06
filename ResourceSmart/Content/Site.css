@@ -1,0 +1,85 @@
+﻿.body-content {
+    padding-top: 15px;
+}
+/* Images */
+.logo {
+    border-width: 0;
+    border-style: solid;
+    width: 165px;
+    height: 120px;
+}
+
+/* Header */
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 106px;
+    padding: 0;
+}
+
+.header-tel {
+    position: absolute;
+    top: 79px;
+    width: 80%;
+    text-align: right;
+    z-index: 500;
+}
+
+.tel {
+    color: #779324;
+    font-family: times new roman,times,serif;
+    font-size: 23px;
+}
+
+.icast {
+    position: absolute;
+    top: 5px;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.icast a{
+    text-decoration: none;
+    color: #0079c2;
+    font-size: 8px;
+    font-family: arial,helvetica,sans-serif;
+}
+
+.subHeader {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color:blue;
+    width: 100%;
+}
+
+#HomeCarousel img {
+    width: 100%;
+}
+.carousel-caption {
+    background-color: #000000;
+    position: absolute;
+    bottom: 20px;
+    left: -1px;
+    right: 0;
+    z-index:10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.detail-box {
+    margin-top: 25px;
+    margin-left: 15px;
+    box-shadow: 2px 5px 5px #808080;
+    box-shadow: -2px 5px 5pc #808080;
+    min-height: 300px;
+    width: 300px;
+}

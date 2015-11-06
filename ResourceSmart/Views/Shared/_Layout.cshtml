@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ResourceSmart | @ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="header">
+            <div class="header-Foreground">
+                <div class="icast">
+                    <a href="http://www.icastusa.org/" target="_blank"><strong>Program Managed By: <img src="~/Content/images/icast-icon-color.png" /></strong></a>
+                </div>
+                <div class="header-tel">
+                    <a href="tel:8665904377" class="tel">
+                        <strong><em>Preserving Our Affordable Housing: </em>866-590-4377</strong>
+                    </a>
+                    <a href="https://www.facebook.com/ResourceSmart" target="_blank">
+                        <span class="fa fa-facebook fa-2x tel"></span>
+                    </a>
+                    <a href="https://twitter.com/ResourceSmartUS" target="_blank">
+                        <span class="fa fa-twitter fa-2x tel"></span>
+                    </a>
+                    <a href="http://www.linkedin.com/groups/ResourceSmart-4437458" target="_blank">
+                        <span class="fa fa-linkedin fa-2x tel"></span>
+                    </a>
+                </div>
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="@Url.Action("Index", "Home")"><img class="logo" src="~/Content/images/RS Logo_TM_Small.png" /></a>
+                    </div>
+                    <div class="navbar-collapse collapse" style="position:absolute;top:130px; left: 25%;">
+                        <ul class="nav navbar-nav navbar-inverse">
+                            <li><a href="@Url.Action("Who_We_Are", "Home")">Who We Are</a></li>
+                            <li><a href="#">What We Do</a></li>
+                            <li><a href="#">Who We Serve</a></li>
+                            <li><a href="#">Why Work with Us</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Partners</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <hr />
+                <p>
+                    ResourceSmart  |  Green Property Rehab | Water & Energy Conservation, Clean Air and Efficient Buildings | Multifamily & Commercial Service in Colorado, New Mexico & Tunisia | 303-462-4100
+                    ICAST/ResourceSmart of Colorado and New Mexico | 777 S. Wadsworth Blvd. #4-205, Lakewood, CO 80226 | 866-590-4377 | <a href"mailto:">Email Us</a>
+                </p>
+                <hr />
+            </div>
+            <div class="row">
+                <div class="navbar navbar-inverse navbar-fixed-bottom">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><i class="fa fa-mobile fa-2x">Call: 866-590-4377</i></a></li>
+                        <li><a href="#"><i class="fa fa-comments-o fa-2x">Request a Quote</i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope-o fa-2x">Join our Mailing List</i></a></li>
+                        <li><a href="#"><i class="fa fa-rss fa-2x">View Blog</i></a></li>
+                        <li><a href="#"><i class="fa fa-newspaper-o fa-2x">Latest News</i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
