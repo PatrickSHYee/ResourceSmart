@@ -1,5 +1,13 @@
 ﻿.body-content {
-    padding-top: 15px;
+    padding-top: 25px;
+    box-shadow: 2px 2px 5px #7F7F7F;
+}
+
+.grad {
+    background: linear-gradient(0deg, #7F7F7F, #F8F8F8);
+}
+.rev-grad {
+    background: linear-gradient(180deg, #7F7F7F, #F8F8F8);
 }
 /* Images */
 .logo {
@@ -15,6 +23,8 @@
 }
 
 /* Header */
+.header-Foreground {
+}
 .header {
     position: relative;
     top: 0;
@@ -27,8 +37,10 @@
 .header-tel {
     position: absolute;
     top: 79px;
-    width: 80%;
+    width: 100%;
+    padding-right: 200px;
     text-align: right;
+    background-color: #E5E5E5;
     z-index: 500;
 }
 
@@ -82,7 +94,8 @@
 
 .detail-box {
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 10px;
+    left: 10%;
     box-shadow: 2px 5px 5px #808080;
     box-shadow: -2px 5px 5pc #808080;
     min-height: 300px;
