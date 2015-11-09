@@ -24,5 +24,10 @@ namespace ResourceSmart.Controllers
 
             return View();
         }
+
+        public ActionResult What_We_Do()
+        {
+            return View();
+        }
     }
 }

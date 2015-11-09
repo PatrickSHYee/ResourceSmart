@@ -8,6 +8,11 @@
     width: 165px;
     height: 120px;
 }
+.img-left {
+    float: left;
+    position:relative;
+    padding-right: 10px;
+}
 
 /* Header */
 .header {
@@ -82,4 +87,14 @@
     box-shadow: -2px 5px 5pc #808080;
     min-height: 300px;
     width: 300px;
+}
+
+/* Main tags */
+footer {
+    padding-bottom: 100px;
+}
+
+p {
+    vertical-align: top;
+    text-align:justify;
 }

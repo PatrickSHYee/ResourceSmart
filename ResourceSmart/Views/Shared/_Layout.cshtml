@@ -41,7 +41,7 @@
                     <div class="navbar-collapse collapse" style="position:absolute;top:130px; left: 25%;">
                         <ul class="nav navbar-nav navbar-inverse">
                             <li><a href="@Url.Action("Who_We_Are", "Home")">Who We Are</a></li>
-                            <li><a href="#">What We Do</a></li>
+                            <li><a href="@Url.Action("What_We_Do", "Home")">What We Do</a></li>
                             <li><a href="#">Who We Serve</a></li>
                             <li><a href="#">Why Work with Us</a></li>
                             <li><a href="#">Case Studies</a></li>
@@ -55,15 +55,7 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <hr />
-                <p>
-                    ResourceSmart  |  Green Property Rehab | Water & Energy Conservation, Clean Air and Efficient Buildings | Multifamily & Commercial Service in Colorado, New Mexico & Tunisia | 303-462-4100
-                    ICAST/ResourceSmart of Colorado and New Mexico | 777 S. Wadsworth Blvd. #4-205, Lakewood, CO 80226 | 866-590-4377 | <a href"mailto:">Email Us</a>
-                </p>
-                <hr />
-            </div>
+        <footer>
             <div class="row">
                 <div class="navbar navbar-inverse navbar-fixed-bottom">
                     <ul class="nav navbar-nav">
@@ -75,8 +67,32 @@
                     </ul>
                 </div>
             </div>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </div>
+            <div class="text-center">
+                <hr />
+                ResourceSmart  |  Green Property Rehab | Water & Energy Conservation, Clean Air and Efficient Buildings | Multifamily & Commercial Service in Colorado, New Mexico & Tunisia | 303-462-4100
+                ICAST/ResourceSmart of Colorado and New Mexico | 777 S. Wadsworth Blvd. #4-205, Lakewood, CO 80226 | 866-590-4377 | <a href"mailto:">Email Us</a>
+                <hr />
+                <a href="http://www.icastusa.org">
+                    <h4>Program managed by:</h4>
+                    <img src="~/Content/images/footer-logo.jpg" />
+                </a>
+                <br />
+                <br />
+                <a href="@Url.Action("Index", "Home")">HOME</a> |
+                <a href="#">AFFORDABLE PROPERTY RENOVATION</a> |
+                <a href="#">CITY OF ARVADA PROGRAM</a> |
+                <a href="#">CONTACT RESOURCE SMART</a> |
+                <a href="#">RESOURCE SMART PARTNERS AND RESOURCES</a> |
+                <a href="#">RESOURCESMART CASE STUDIES</a> |
+                <a href="#">RESOURCESMART TESTIMONIALS</a> |
+                <a href="#">ROUTT COUNTY PROGRAMS</a> |
+                <a href="#">SAN MIGUEL POWER PARTNERS</a> |
+                <a href="#">VALUED PARTNERS AND USEFUL LINKS</a> |
+                <a href="@Url.Action("Who_We_Are", "Home")">WHO IS RESOURCE SMART</a> |
+                <a href="@Url.Action("What_We_Do", "Home")">WHY CHOOSE RESOURCE SMART</a>
+                <p>&copy; @DateTime.Now.Year - ResourceSmart All Rights Reserved <a href="#">Site Map</a></p>
+            </div>
+        </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
