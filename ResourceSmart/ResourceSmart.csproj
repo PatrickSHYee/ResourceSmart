@@ -161,6 +161,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\Who_We_ServeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -173,6 +174,13 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\CaseStudies\ARVADA.png" />
+    <Content Include="Content\images\CaseStudies\Greee.png" />
+    <Content Include="Content\images\CaseStudies\green-property-rehab-renovation-dma.jpg" />
+    <Content Include="Content\images\CaseStudies\green-property-rehab-renovation-rha.jpg" />
+    <Content Include="Content\images\CaseStudies\Overland Trail.png" />
+    <Content Include="Content\images\CaseStudies\Viking Square.jpg" />
+    <Content Include="Content\images\CaseStudies\WATER.png" />
     <Content Include="Content\images\corn.jpg" />
     <Content Include="Content\images\footer-logo.jpg" />
     <Content Include="Content\images\green-property-rehab-denver-co-button.png" />
@@ -186,6 +194,8 @@
     <Content Include="Content\images\RS Logo_TM_Small.png" />
     <Content Include="Content\images\save-on-heating-bill.png" />
     <Content Include="Content\images\WhatWeDo\3-peeps.jpg" />
+    <Content Include="Content\images\WhatWeDo\money-in-hand.jpg" />
+    <Content Include="Content\images\WhatWeDo\what-construction-guy.jpg" />
     <Content Include="Content\images\WhoWeAre\green-property-rehab-who-we-are-01.jpg" />
     <Content Include="Content\images\WhoWeAre\green-property-rehab-who-we-are-02.jpg" />
     <Content Include="Content\images\WhoWeAre\green-property-rehab-who-we-are-03.jpg" />
@@ -201,6 +211,7 @@
     <Content Include="Content\images\WhoWeAre\green-property-rehab-who-we-are-13.jpg" />
     <Content Include="Content\images\WhoWeAre\rock-climbing.jpg" />
     <Content Include="Content\images\WhoWeAre\team-pic.jpg" />
+    <Content Include="Content\images\WhoWeServe\sustain-arvada-green-property-rehab-renovation.png" />
     <Content Include="Content\images\woodbury-park-apartments-snow-removal-300x225.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -208,6 +219,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\docs\Arvada Place Case Study RSARVADA.pdf" />
+    <Content Include="Content\docs\DMA Plaza Case Study.pdf" />
+    <Content Include="Content\docs\green-property-rehab-renovation-rha-study.pdf" />
+    <Content Include="Content\docs\Greenleaf Case Study.pdf" />
+    <Content Include="Content\docs\Overland Trail Case Study.pdf" />
+    <Content Include="Content\docs\Reserve at Water Tower Village RS Arvada new.pdf" />
+    <Content Include="Content\docs\Viking Square Case Study.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -256,6 +274,10 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\What_We_Do.cshtml" />
+    <Content Include="Views\Who_We_Serve\Index.cshtml" />
+    <Content Include="Views\Who_We_Serve\City_Arvada_Program.cshtml" />
+    <Content Include="Views\Who_We_Serve\CaseStudies.cshtml" />
+    <Content Include="Views\Who_We_Serve\Testimonials.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

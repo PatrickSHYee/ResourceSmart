@@ -4,6 +4,7 @@
 }
 
 .grad {
+    width: 100%;
     background: linear-gradient(0deg, #7F7F7F, #F8F8F8);
 }
 .rev-grad {
@@ -24,6 +25,11 @@
 
 /* Header */
 .header-Foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
 }
 .header {
     position: relative;
@@ -38,6 +44,7 @@
     position: absolute;
     top: 79px;
     width: 100%;
+    height: 75px;
     padding-right: 200px;
     text-align: right;
     background-color: #E5E5E5;
@@ -54,6 +61,7 @@
     position: absolute;
     top: 5px;
     width: 80%;
+    left: 200px;
     padding: 0;
     margin: 0;
     text-align: right;
@@ -110,4 +118,14 @@ footer {
 p {
     vertical-align: top;
     text-align:justify;
+}
+
+.img-right {
+    float: right;
+    padding: 5px;
+}
+
+.case-img {
+    width: 200px;
+    height: 150px;
 }

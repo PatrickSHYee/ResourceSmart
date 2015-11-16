@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#lowmenufloat { margin: 6px auto 0; height: 30px; min-width: 900px; font-family: Tahoma, Geneva, sans-serif; display: inline-block; text-align: left; }
+.lowmenubutton { position: relative; float: left; height: 27px; margin: 0; padding: 0 10px 0 0; display: inline-block; cursor: pointer; border-left: 1px solid #333; }
+.lowmenubutton p { margin: 0 0 0 5px; padding: 6px 0 0 0; color: #ccc; display: block; font-size: 13px; font-weight: normal; }
+.lowmenubutton p img { float: left; margin: 0 5px 0 5px; padding: 0; }
+#socialnav_but { float: right; }
+#socialnav_but p img { margin: 0 0 0 10px; }
+#stayinformednav { position: absolute; bottom: 27px; left: 0; min-width: 250px; max-width: 380px; height: auto; background: #c2c2c2 url(/images/icons/dynamicfooter/formbg.png) repeat-x bottom center; display: none; z-index: 998; padding: 10px; }
+#leavemessagenav { position: absolute; bottom: 27px; left: 0; min-width: 250px; max-width: 380px; height: auto; background: #c2c2c2 url(/images/icons/dynamicfooter/formbg.png) repeat-x bottom center; display: none; z-index: 998; padding: 10px; }
+#stayinformednav_but { z-index: 999; }
+#leavemessagenav_but { z-index: 999; }
+.lowerformsubmitfield { border: 1px solid #999; background-color: #aaa; height: 22px; cursor: pointer; margin-top: 3px; }
+.lowerform label { font-weight: bold; font-size: 10px; margin-top: 3px; }
+.footerFormField { max-width: 150px; display: block; }

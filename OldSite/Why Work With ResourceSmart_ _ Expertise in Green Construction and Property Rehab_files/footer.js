@@ -1,0 +1,5 @@
+document.write('&nbsp;<hr /><div style="text-align: center;"><span style="font-size:10px;"><span style="color:#999999;">');
+document.write('ResourceSmart &nbsp;| &nbsp;Green Property Rehab&nbsp;|&nbsp;Water &amp; Energy Conservation, Clean Air and Efficient Buildings&nbsp;|&nbsp;Multifamily &amp; Commercial Service in Colorado, New Mexico & Tunisia&nbsp;|&nbsp;303-462-4100<br>ICAST/ResourceSmart of Colorado and New Mexico | 777 S. Wadsworth Blvd. #4-205, Lakewood, CO 80226 | 866-590-4377 | <a class="dynamicFooter_contactForm" href="#" id="fid_282">Email Us</a>');
+document.write('</span></span></div><hr />');
+
+document.write('<div style="text-align: center; margin-top: 10px;">Program Managed By:<br><a href="http://www.icastusa.org" target="_blank"><img alt="" src="/userfiles/100315/images/footer-logo.jpg" style="width: 84px; height: 76px;" /></a></div>')
