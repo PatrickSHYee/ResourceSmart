@@ -28,5 +28,15 @@ namespace ResourceSmart.Controllers
         {
             return View();
         }
+
+        public ActionResult Routt_County()
+        {
+            return View();
+        }
+
+        public ActionResult San_Miguel_Partner()
+        {
+            return View();
+        }
     }
 }

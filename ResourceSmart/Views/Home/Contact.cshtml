@@ -1,17 +1,85 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<div class="container">
+    <div class="row">
+        <h2>Contact ResourceSmart to Learn More</h2>
+        <hr />
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+        <p>
+            Are you interested in green rehab, energy cost savings, or funding opportunities? We would love to discuss your options. We also welcome inquiries if you are considering partnering with ResourceSmart. Contact us today to discover our affordable and innovative solutions:
+        </p>
+        <div class="col-md-4">
+            <address>
+                New Mexico:<br />
+                Matt Naughton,<br />
+                <abbr title="Phone">Phone:</abbr> 505-977-6431<br />
+                <a href="mailto:mattn@icastusa.org">mattn@icastusa.org</a>
+            </address>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+            <address>
+                Texas:<br />
+                Rachel Stone<br />
+                <abbr title="Phone">Phone:</abbr> 512-662-1203<br />
+                <a href="mailto:rachels@icastusa.org"> rachels@icastusa.org</a>
+            </address>
+            <address>
+                Colorado:<br />
+                Barret Ramey<br />
+                <abbr title="Phone">Phone:</abbr> 866-590-4377<br />
+                <a href="#" data-toggle="modal" data-target="#contactModal">Email Us</a>
+            </address>
+        </div>
+
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBF_lNj-xHbwHcpxS098wgtui6W8t98Suc"></script>
+        <script type="text/javascript" src="~/Scripts/googleMap.js"></script>
+        <div id="map" class="col-md-8">
+            Google Map
+        </div>
+        <br />
+    </div>
+    <hr />
+    <div class="col-md-12">
+        <div class="form-group">
+            <form id="contactUs">
+                <h3>Contact Us</h3>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" placeholder="Enter name" />
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" type="tel" placeholder="Enter phone number" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input class="form-control" type="email" placeholder="Enter email" />
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" placeholder="Enter address" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input class="form-control" type="number" placeholder="Enter the # of units" />
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control" type="number" placeholder="Enter the age of property" />
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="col-md-12">
+                    <textarea class="form-control" rows="6" placeholder="Message Details"></textarea>
+                </div>
+                <br />
+                <div class="col-md-12 text-center">
+                    <input class="btn btn-info" type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

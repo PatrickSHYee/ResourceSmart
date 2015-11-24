@@ -29,5 +29,15 @@ namespace ResourceSmart.Controllers
         {
             return View();
         }
+
+        public ActionResult Why_Work()
+        {
+            return View();
+        }
+
+        public ActionResult Partners()
+        {
+            return View();
+        }
     }
 }

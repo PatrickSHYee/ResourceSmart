@@ -191,7 +191,31 @@
     <Content Include="Content\images\green-property-rehabilitation-slide-11.jpg" />
     <Content Include="Content\images\green-property-rehabilitation-slide-12.jpg" />
     <Content Include="Content\images\icast-icon-color.png" />
+    <Content Include="Content\images\Partners\HTC_-_Header.gif" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-01.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-02.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-03.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-04.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-05.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-07.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-08.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-09.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-10.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-11.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-12.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-13.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-14.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-15.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-16.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-17.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-18.jpg" />
+    <Content Include="Content\images\Partners\resource-smart-green-property-rehab-partners-resources-19.jpg" />
+    <Content Include="Content\images\Partners\TBL Foundation.png" />
     <Content Include="Content\images\RS Logo_TM_Small.png" />
+    <Content Include="Content\images\SanMiguel\alpine-green-property-rehab-renovation.jpg" />
+    <Content Include="Content\images\SanMiguel\san-miguel-green-property-rehab-renovation.jpg" />
+    <Content Include="Content\images\SanMiguel\source-gas-green-property-rehab-renovation.jpg" />
+    <Content Include="Content\images\SanMiguel\telluride-green-property-rehab-renovation.jpg" />
     <Content Include="Content\images\save-on-heating-bill.png" />
     <Content Include="Content\images\WhatWeDo\3-peeps.jpg" />
     <Content Include="Content\images\WhatWeDo\money-in-hand.jpg" />
@@ -227,6 +251,7 @@
     <Content Include="Content\docs\Reserve at Water Tower Village RS Arvada new.pdf" />
     <Content Include="Content\docs\Viking Square Case Study.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\googleMap.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -278,6 +303,10 @@
     <Content Include="Views\Who_We_Serve\City_Arvada_Program.cshtml" />
     <Content Include="Views\Who_We_Serve\CaseStudies.cshtml" />
     <Content Include="Views\Who_We_Serve\Testimonials.cshtml" />
+    <Content Include="Views\Home\Why_Work.cshtml" />
+    <Content Include="Views\Home\Partners.cshtml" />
+    <Content Include="Views\Who_We_Serve\Routt_County.cshtml" />
+    <Content Include="Views\Who_We_Serve\San_Miguel_Partner.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

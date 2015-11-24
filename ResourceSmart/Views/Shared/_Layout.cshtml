@@ -20,12 +20,10 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="header-Foreground rev-grad">
-                    <div class="icast">
-                        <a href="http://www.icastusa.org/" target="_blank"><strong>Program Managed By: <img src="~/Content/images/icast-icon-color.png" /></strong></a>
-                        <a class="navbar-brand" href="@Url.Action("Index", "Home")"><img class="logo" src="~/Content/images/RS Logo_TM_Small.png" /></a>
-                    </div>
+                <div class="header-Foreground grad">
+                    <a class="icast" href="http://www.icastusa.org/" target="_blank"><strong>Program Managed By: <img src="~/Content/images/icast-icon-color.png" /></strong></a>
                     <div class="header-tel grad">
+                        <a class="navbar-brand" href="@Url.Action("Index", "Home")" style="left: 297px; top: -100px; position: absolute"><img class="logo" src="~/Content/images/RS Logo_TM_Small.png" /></a>
                         <a href="tel:8665904377" class="tel">
                             <strong><em>Preserving Our Affordable Housing: </em>866-590-4377</strong>
                         </a>
@@ -43,10 +41,10 @@
                                 <li><a href="@Url.Action("Who_We_Are", "Home")">Who We Are</a></li>
                                 <li><a href="@Url.Action("What_We_Do", "Home")">What We Do</a></li>
                                 <li><a href="@Url.Action("Index", "Who_We_Serve")">Who We Serve</a></li>
-                                <li><a href="#">Why Work with Us</a></li>
+                                <li><a href="@Url.Action("Why_Work", "Home")">Why Work with Us</a></li>
                                 <li><a href="@Url.Action("CaseStudies", "Who_We_Serve")">Case Studies</a></li>
-                                <li><a href="#">Partners</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="@Url.Action("Partners", "Home")">Partners</a></li>
+                                <li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -55,48 +53,112 @@
         </div>
     </div>
     <div class="container body-content">
-        @RenderBody()
-        <footer>
-            <div class="row">
-                <div class="navbar navbar-inverse navbar-fixed-bottom">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#"><i class="fa fa-mobile fa-2x">Call: 866-590-4377</i></a></li>
-                        <li><a href="#"><i class="fa fa-comments-o fa-2x">Request a Quote</i></a></li>
-                        <li><a href="#"><i class="fa fa-envelope-o fa-2x">Join our Mailing List</i></a></li>
-                        <li><a href="#"><i class="fa fa-rss fa-2x">View Blog</i></a></li>
-                        <li><a href="#"><i class="fa fa-newspaper-o fa-2x">Latest News</i></a></li>
-                        <li><a href="https://www.facebook.com/ResourceSmart"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                        <li><a href="https://twitter.com/ResourceSmartUS"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                        <li><a href="http://www.linkedin.com/groups/ResourceSmart-4437458"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-                    </ul>
+        <div class="row">
+            @RenderBody()
+        </div>
+        <div class="row">
+            <footer>
+                <div class="row">
+                    <div class="navbar navbar-inverse navbar-fixed-bottom">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><i class="fa fa-mobile fa-2x">Call: 866-590-4377</i></a></li>
+                            <li><a href="#"><i class="fa fa-comments-o fa-2x">Request a Quote</i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope-o fa-2x">Join our Mailing List</i></a></li>
+                            <li><a href="#"><i class="fa fa-rss fa-2x">View Blog</i></a></li>
+                            <li><a href="#"><i class="fa fa-newspaper-o fa-2x">Latest News</i></a></li>
+                            <li><a href="https://www.facebook.com/ResourceSmart"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                            <li><a href="https://twitter.com/ResourceSmartUS"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                            <li><a href="http://www.linkedin.com/groups/ResourceSmart-4437458"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <hr />
+                    ResourceSmart  |  Green Property Rehab | Water & Energy Conservation, Clean Air and Efficient Buildings | Multifamily & Commercial Service in Colorado, New Mexico & Tunisia | 303-462-4100
+                    ICAST/ResourceSmart of Colorado and New Mexico | 777 S. Wadsworth Blvd. #4-205, Lakewood, CO 80226 | 866-590-4377 | <a href="#" data-toggle="modal" data-target="#contactModal" >Email Us</a>
+                    <hr />
+                    <a href="http://www.icastusa.org">
+                        <h4>Program managed by:</h4>
+                        <img src="~/Content/images/footer-logo.jpg" />
+                    </a>
+                    <br />
+                    <br />
+                    <a href="@Url.Action("Index", "Home")">HOME</a> |
+                    <a href="@Url.Action("What_We_Do", "Home")">AFFORDABLE PROPERTY RENOVATION</a> |
+                    <a href="@Url.Action("City_Arvada_Program", "Who_We_Serve")">CITY OF ARVADA PROGRAM</a> |
+                    <a href="@Url.Action("Contact", "Home")">CONTACT RESOURCE SMART</a> |
+                    <a href="@Url.Action("Partners", "Home")">RESOURCE SMART PARTNERS AND RESOURCES</a> |
+                    <a href="@Url.Action("CaseStudies", "Who_We_Serve")">RESOURCESMART CASE STUDIES</a> |
+                    <a href="@Url.Action("Testimonials", "Who_We_Serve")">RESOURCESMART TESTIMONIALS</a> |
+                    <a href="@Url.Action("Routt_County", "Who_We_Serve")">ROUTT COUNTY PROGRAMS</a> |
+                    <a href="@Url.Action("San_Miguel_Partner", "Who_We_Serve")">SAN MIGUEL POWER PARTNERS</a> |
+                    <a href="@Url.Action("Who_We_Are", "Home")">WHO IS RESOURCE SMART</a> |
+                    <a href="@Url.Action("What_We_Do", "Home")">WHY CHOOSE RESOURCE SMART</a>
+                    <p class="text-center">&copy; @DateTime.Now.Year - ResourceSmart All Rights Reserved <a href="#">Site Map</a></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contactModal" role="dialog" aria-labelledby="ContactModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="ContactModalLabel">
+                        Contact Us
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <form id="contactUs">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <input class="form-control" type="text" placeholder="Enter name" />
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input class="form-control" type="tel" placeholder="Enter phone number" />
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <input class="form-control" type="email" placeholder="Enter email" />
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input class="form-control" type="text" placeholder="Enter address" />
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <input class="form-control" type="number" placeholder="Enter the # of units" />
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input class="form-control" type="number" placeholder="Enter the age of property" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        <div class="col-md-12">
+                                            <textarea class="form-control" rows="6" placeholder="Message Details"></textarea>
+                                        </div>
+                                        <br />
+                                        <div class="col-md-12 text-center">
+                                            <input class="btn btn-info" type="submit" value="Submit" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="text-center">
-                <hr />
-                ResourceSmart  |  Green Property Rehab | Water & Energy Conservation, Clean Air and Efficient Buildings | Multifamily & Commercial Service in Colorado, New Mexico & Tunisia | 303-462-4100
-                ICAST/ResourceSmart of Colorado and New Mexico | 777 S. Wadsworth Blvd. #4-205, Lakewood, CO 80226 | 866-590-4377 | <a href"mailto:">Email Us</a>
-                <hr />
-                <a href="http://www.icastusa.org">
-                    <h4>Program managed by:</h4>
-                    <img src="~/Content/images/footer-logo.jpg" />
-                </a>
-                <br />
-                <br />
-                <a href="@Url.Action("Index", "Home")">HOME</a> |
-                <a href="#">AFFORDABLE PROPERTY RENOVATION</a> |
-                <a href="#">CITY OF ARVADA PROGRAM</a> |
-                <a href="#">CONTACT RESOURCE SMART</a> |
-                <a href="#">RESOURCE SMART PARTNERS AND RESOURCES</a> |
-                <a href="#">RESOURCESMART CASE STUDIES</a> |
-                <a href="#">RESOURCESMART TESTIMONIALS</a> |
-                <a href="#">ROUTT COUNTY PROGRAMS</a> |
-                <a href="#">SAN MIGUEL POWER PARTNERS</a> |
-                <a href="#">VALUED PARTNERS AND USEFUL LINKS</a> |
-                <a href="@Url.Action("Who_We_Are", "Home")">WHO IS RESOURCE SMART</a> |
-                <a href="@Url.Action("What_We_Do", "Home")">WHY CHOOSE RESOURCE SMART</a>
-                <p>&copy; @DateTime.Now.Year - ResourceSmart All Rights Reserved <a href="#">Site Map</a></p>
-            </div>
-        </footer>
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
